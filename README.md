@@ -80,7 +80,7 @@ params = {
 ```   
    
 ```python
-# 네이버 쇼핑의경우  
+# 네이버 쇼핑의 경우  
   
 review_url = "https://search.shopping.naver.com/api/review"
 params = {
