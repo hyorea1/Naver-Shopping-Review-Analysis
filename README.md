@@ -177,7 +177,7 @@ for positive in pos_reviews_new:
 
 방 법 | 내 용 | 효 과 | 코 드
 |------|------|--------|-----|
-A   | 단어가 긍정어(부정어) 사전에 존재한다면 해당 **리뷰 자체 삭제** | 긍・부정의 순수도(purity)는 높아지나, 데이터 수 감소 | 
+A   | 단어가 긍정어(부정어) 사전에 존재한다면 해당 **리뷰 자체 삭제** | 긍・부정의 순수도(purity)는 높아지나, 데이터 수 감소 | [A_리뷰자체삭제.ipynb](https://github.com/hyorea1/TextMining-Review-Analysis/blob/main/A_data_code/A_%E1%84%85%E1%85%B5%E1%84%87%E1%85%B2%E1%84%8C%E1%85%A1%E1%84%8E%E1%85%A6%E1%84%89%E1%85%A1%E1%86%A8%E1%84%8C%E1%85%A6.ipynb)
 B   | kss 라이브러리를 사용해 해당 리뷰를 **문장 단위로 분리하여 해당 문장만 삭제** | 한 문장에도 혼재된 내용이 포함될 수 있음        
 C   | 문장에서 의미가 전환될 때 사용되는 **접속 부사(하지만, 그러나, 근데 등) 사전**을 이용해 혼재된 내용 분리 | 접속사가 존재하지 않는 경우에는 적용되지 않음 | [C_접속부사.py](https://github.com/hyorea1/TextMining-Review-Analysis/blob/main/c_data_code/c_%EC%A0%91%EC%86%8D%EB%B6%80%EC%82%AC.py)        
 D   | **N-gram**을 사용하여 문장 맥락 상 어울리는 단어들의 시퀀스만 추출 | 긍정・부정적 내용이 가리키는 대상 확인 가능          
