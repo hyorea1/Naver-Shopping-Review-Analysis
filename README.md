@@ -118,6 +118,7 @@ for positive in pos_reviews_new:
     # Okt 형태소 분석기 사용
     okt = Okt()
     # stem : 통일화 여부 
+    # 품사 태깅(pos)
     positive_reviews.append(okt.pos((positive), stem= True))
 ``` 
 
